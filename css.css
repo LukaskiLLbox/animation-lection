@@ -1,6 +1,6 @@
 body {
     background-image: url(images/good-morning-new-york.jpg); 
-    background-size: 100% 100%; 
+    background-size: 100% 30%; 
     background-repeat: no-repeat; 
     padding-left: 20%;
     padding-right: 20%;
@@ -41,4 +41,28 @@ h1 {
     height: 45px; color: #fff; 
     border-radius: 20px; 
     margin-top: 4%;
+}
+
+
+#second-section {
+    background-color: orangered; 
+    width: 170%; 
+    height: 30%;
+     margin-left: -35%;
+     height: 350px;
+     margin-top: 27%;
+     text-align: center;
+}
+
+
+#first-section-p {
+    width: 75%; 
+    font-size: medium; 
+    margin-left: 13%; 
+    margin-top: -0%; 
+    color: white;
+}
+
+#second-section {
+    color: #fff;
 }
