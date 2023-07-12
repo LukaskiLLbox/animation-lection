@@ -29,7 +29,24 @@ h1 {
     margin-left: 1%;
     margin-top: 8%;
     border: 0;
+
 }
+
+    @keyframes buy {
+        0% {
+
+        }
+        50% {
+            margin-top: -5%;
+            color: floralwhite;
+            background-color: black;
+        }
+        100% {
+            color: black;
+            background-color: #fff;
+            
+        }
+    }
 
 .membership {
     background-color: orangered; 
@@ -73,6 +90,10 @@ h1 {
     margin-left: 1%;
     width: 8%;
     height: 10%;
+    animation-name: buy;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+
 }
 
 #third-section-div {
@@ -81,6 +102,9 @@ h1 {
     flex-wrap: nowrap;
     justify-content: space-around;
     margin-top: 5%;
+    animation-name: help;
+    animation-duration: 7s;
+    animation-iteration-count: infinite;
 }
 
 .third-section-div {
@@ -135,7 +159,49 @@ h1 {
     margin-left: 25%;
 }
 
-button {
+.buttons {
     background: 0;
-    
 }
+
+.q {
+    background: 0;
+    border: 0;
+    color: #fff;
+}
+
+.fifth-section-div-component-img {
+    height: 30%;
+}
+
+
+
+    @keyframes help {
+        0% {
+
+        }
+        50% {
+            flex-direction: row-reverse;
+            justify-content: space-between;
+        }
+        100% {
+            
+        }
+    }
+
+.animation-1 {
+    animation-name: help1;
+    animation-duration: 3s;
+    animation-delay: 1s;
+    animation-iteration-count: infinite;
+}
+    @keyframes help1 {
+        0% {
+
+        }
+        50% {
+            margin-right: 5%;
+        }
+        100% {
+            
+        }
+    }
